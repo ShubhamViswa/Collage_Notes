@@ -1,10 +1,10 @@
 ### Processes
 
-#### Process Concept
+#### Process Concept  [Click to watch Video](https://youtu.be/B0Uq9Mjz4gM?si=2q6QIv4VGOeCINhC&t=38)
 
 A **process** is a program in execution, consisting of the program code, current activity (represented by the value of the Program Counter), and a set of resources (memory, I/O devices, etc.) allocated to it. Processes are essential for multitasking and resource management.
 
-#### Process Scheduling
+#### Process Scheduling  [Click to watch Video](https://youtu.be/2h3eWaPx8SA?si=BE-Oz0eKQPMkVWqF&t=36)
 
 **Process scheduling** is the method by which the operating system decides which processes run at a given time. The scheduler selects a process from the ready queue and allocates the CPU to it.
 
@@ -20,7 +20,7 @@ The operating system manages processes through various operations:
 
 ### CPU Scheduling
 
-#### Basic Concepts
+#### Basic Concepts  [Click to watch Video](https://youtu.be/EWkQl0n0w5M?si=pRNwH4R4iLcvBfF3&t=170)
 
 **CPU Scheduling** refers to the method used to allocate the CPU to different processes. Effective scheduling increases CPU utilization and system responsiveness.
 
@@ -28,7 +28,7 @@ The operating system manages processes through various operations:
 - CPU scheduler is part of the operating system.
 - Importance of efficient CPU scheduling.
 
-#### Scheduling Criteria
+#### Scheduling Criteria 
 
 Common criteria for evaluating scheduling algorithms include:
 - **CPU Utilization:** Percentage of time the CPU is busy.
