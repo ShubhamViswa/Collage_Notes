@@ -28,7 +28,7 @@ The operating system manages processes through various operations:
 - CPU scheduler is part of the operating system.
 - Importance of efficient CPU scheduling.
 
-#### Scheduling Criteria 
+#### Scheduling Criteria [Click to watch Video](https://youtu.be/bWHFY8-rL5I?si=Iu2mgO-VXbuvTvXd)
 
 Common criteria for evaluating scheduling algorithms include:
 - **CPU Utilization:** Percentage of time the CPU is busy.
@@ -40,23 +40,17 @@ Common criteria for evaluating scheduling algorithms include:
 
 #### Scheduling Algorithms
 
-1. **First-Come, First-Served (FCFS):** Processes are scheduled in the order they arrive.
-2. **Shortest Job Next (SJN):** The process with the smallest execution time is scheduled next.
-3. **Priority Scheduling:** Processes are scheduled based on priority. Higher priority processes are executed first.
-4. **Round Robin (RR):** Each process is assigned a time slice and scheduled in a circular order.
-5. **Multilevel Queue Scheduling:** Multiple queues with different scheduling algorithms for each.
+1. **[First-Come, First-Served (FCFS)](https://youtu.be/7DoP1L9nAAs?si=9F5o5tk2dYV7Vqfh):** Processes are scheduled in the order they arrive.
+2. **[Shortest Job Next (SJN)](https://youtu.be/t0g9b3SJECg?si=YUdQ8eZEpnYMpzrO):** The process with the smallest execution time is scheduled next.
+3. **[Priority Scheduling](https://youtu.be/yKD3pcFvGmY?si=G5M8DkfkAhtin-lk):** Processes are scheduled based on priority. Higher priority processes are executed first.
+4. **[Round Robin (RR)](https://youtu.be/YzBBJYfwdi8?si=cyeR5eVCtqV9sRIL):** Each process is assigned a time slice and scheduled in a circular order.
+5. **[Multilevel Queue Scheduling](https://youtu.be/fvkSXMZaBNY?si=E8c87eq8uvUjRIrw):** Multiple queues with different scheduling algorithms for each.
 
-**Important Points for Exam:**
-- Advantages and disadvantages of each scheduling algorithm.
-- Examples of scenarios where each algorithm would be effective.
 
 #### Multiple-Processor Scheduling
 
 In **multiple-processor scheduling**, multiple CPUs or cores execute processes simultaneously. Key considerations include load balancing, ensuring all CPUs are utilized efficiently, and dealing with process affinity.
 
-**Important Points for Exam:**
-- Concept of load balancing.
-- Difference between symmetric and asymmetric multiprocessing.
 
 ---
 
