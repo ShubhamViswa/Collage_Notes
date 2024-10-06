@@ -77,8 +77,10 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - Difference between parallel and distributed systems.
 - Shared memory vs distributed memory.
 
-  [![Learning React](https://img.youtube.com/vi/dGcsHMXbSOA/0.jpg)](https://www.youtube.com/watch?v=dGcsHMXbSOA)
+  [![Learning React](https://img.youtube.com/vi/dGcsHMXbSOA/0.jpg)](https://youtu.be/pPFBgN2XSTY?si=RrbzKP7bQ0PVYQ-r)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dGcsHMXbSOA" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Parallel vs Distributed Operating System](https://youtu.be/pPFBgN2XSTY?si=RrbzKP7bQ0PVYQ-r)
 ---
