@@ -23,6 +23,8 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - No user interaction after submission.
 - Limited resource utilization strategies.
 
+![Batch Operating System Diagram](https://files.prepinsta.com/2023/06/Batch-Operating-System.webp)
+
 ---
 
 ### Multi-programmed Batch Systems
@@ -35,6 +37,8 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - Concept of multiple jobs sharing CPU time.
 - Role of CPU scheduling in multi-programming.
 - Memory management strategies in multi-programming.
+
+![Multi-programmed Batch Systems](https://cdn1.byjus.com/wp-content/uploads/2022/08/word-image-4.png)
 
 ---
 
@@ -49,6 +53,7 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - CPU scheduling algorithms used in time-sharing.
 - Multi-user support.
 
+![Time-Sharing System](https://cdn1.byjus.com/wp-content/uploads/2022/08/word-image-13.png)
 ---
 
 ### Personal-Computer Systems
@@ -72,11 +77,15 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - Difference between parallel and distributed systems.
 - Shared memory vs distributed memory.
 
+[Parallel vs Distributed Operating System](https://youtu.be/pPFBgN2XSTY?si=RrbzKP7bQ0PVYQ-r)
 ---
 
 ### Distributed Systems
 
 **Distributed systems** consist of multiple computers working together, appearing to users as a single coherent system. Resources are shared, and communication is required between machines.
+
+ Each machine has a piece of the distributed OS installed to allow them to communicate. Because they must deal with a variety of networking protocols, distributed Operating Systems are far more sophisticated, massive, and complex than network Operating Systems.
+
 - **Advantage:** Scalability and fault tolerance.
 - **Disadvantage:** Complexity in communication and synchronization.
 
@@ -84,6 +93,7 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - Key characteristics of distributed systems.
 - Importance of resource sharing and fault tolerance.
 
+![Distributed System](https://cdn1.byjus.com/wp-content/uploads/2022/08/word-image-14.png)
 ---
 
 ### Real-Time Systems
