@@ -77,11 +77,7 @@ In **Simple Batch Systems**, users submit their jobs to the computer, and the OS
 - Difference between parallel and distributed systems.
 - Shared memory vs distributed memory.
 
-  [![Learning React](https://img.youtube.com/vi/dGcsHMXbSOA/0.jpg)](https://youtu.be/pPFBgN2XSTY?si=RrbzKP7bQ0PVYQ-r)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dGcsHMXbSOA" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+***Click here to watch the video -->***
 [Parallel vs Distributed Operating System](https://youtu.be/pPFBgN2XSTY?si=RrbzKP7bQ0PVYQ-r)
 ---
 
@@ -133,7 +129,31 @@ The OS translates logical addresses to physical addresses using a **Memory Manag
 
 ---
 
-### Swapping
+---
+## 3. Memory Management Techniques
+
+Several techniques are used by the OS to allocate and manage memory efficiently:
+
+### a) Partitioning
+- **Fixed Partitioning**: Memory is divided into fixed-size partitions. Each partition holds one process. However, this can lead to wasted space (**internal fragmentation**) if a process doesn't fully use its partition.
+- **Dynamic Partitioning**: Memory is divided into partitions dynamically based on process needs. This helps reduce internal fragmentation but may lead to **external fragmentation**, where free memory is split into small, non-contiguous blocks.
+
+### b) Paging
+- **Paging** is a technique that divides memory into fixed-size blocks called pages. Physical memory (RAM) is divided into **page frames**, and the OS maps virtual memory addresses to physical memory using **page tables**.
+  - Paging reduces external fragmentation.
+  - It allows processes to use non-contiguous memory blocks, which simplifies memory allocation.
+
+### c) Segmentation
+- **Segmentation** divides memory into variable-sized segments based on logical divisions, such as code, data, and stack. Each segment has its own **base** and **limit address**. Unlike paging, which focuses on physical memory, segmentation deals with the logical view of memory. It allows more flexibility but may suffer from **external fragmentation**.
+
+### d) Virtual Memory
+- **Virtual memory** allows processes to run as if they have more RAM than is physically available. The OS uses paging or segmentation to map parts of processes into secondary storage (such as a hard drive) and loads them into RAM when needed. This provides several benefits:
+  - Enables multitasking by giving each process its own virtual address space.
+  - Facilitates **swapping**, where parts of memory can be temporarily moved to secondary storage when RAM is full.
+  - Handles large applications that require more memory than available physical RAM.
+
+---
+### Swapping [Swapping Video](https://youtu.be/Kow9tovzVd4?si=-dMsJkFMR-ggGMH9&t=23)
 
 **Swapping** is a memory management technique where processes are swapped between main memory and secondary storage to free up memory for active processes.
 
