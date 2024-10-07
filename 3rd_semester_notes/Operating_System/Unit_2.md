@@ -8,11 +8,11 @@ A **process** is a program in execution, consisting of the program code, current
 
 **Process scheduling** is the method by which the operating system decides which processes run at a given time. The scheduler selects a process from the ready queue and allocates the CPU to it.
 
-#### Operations on Processes
+#### Operations on Processes  [Click to watch Video](https://youtu.be/pSW9d3Oaie8?si=DwL-HOEd1lWujEqx)
 
 The operating system manages processes through various operations:
 - **Creation:** Creating a new process (forking).
-- **Termination:** Ending a process (exit).
+- **[Termination](https://youtu.be/SFc3jt8t5rU?si=fzQVTtNgnkh6eBjt):** Ending a process (exit).
 - **Suspension and Resumption:** Suspending a process and resuming it later.
 
 
